@@ -31,4 +31,4 @@ The main packages you can see in package.json [file](https://github.com/Skr1pt1k
 In this project I have used mock data [mocks](https://github.com/Skr1pt1k/peer_rewards/blob/main/src/mocks/index.ts)
 
 ## Example of usage
-<img src="https://github.com/Skr1pt1k/peer_rewards/blob/main/FAQ.gif" alt="gif" width="300">
+<img src="https://github.com/Skr1pt1k/peer_rewards/blob/main/docs/FAQ.gif" alt="gif" width="300">

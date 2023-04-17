@@ -21,9 +21,6 @@ DerivedData
 *.ipa
 *.xcuserstate
 ios/.xcode.env.local
-
-# Android/IntelliJ
-#
 build/
 .idea
 .gradle
@@ -31,7 +28,9 @@ local.properties
 *.iml
 *.hprof
 .cxx/
-
+.bundle/
+.vscode/
+Gemfile.lock
 # node.js
 #
 node_modules/
