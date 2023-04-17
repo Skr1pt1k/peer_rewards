@@ -1,0 +1,220 @@
+import { IFeedback, IUser } from "../models";
+
+export const users: IUser[] = [
+    {
+        id: 'i48fut5kflgh23k',
+        username: 'Jane Doe',
+        currency: {
+            given: 100,
+            received: 460,
+        },
+        avatar: 'https://www.gannett-cdn.com/presto/2022/12/08/USAT/18bb1adb-d94a-415d-a9cf-f8cde107e3e6-Lensa_Showcase_5.JPG'
+    },
+    {
+        id: 'i48fut5kfl44432',
+        username: 'Alex Smith',
+        currency: {
+            given: 75,
+            received: 330,
+        },
+        avatar: 'https://mofai.com/wp-content/uploads/2023/02/Men_sDrippingLogoT-Shirt3.jpg'
+    },
+    {
+        id: 'jgh5ut5kflgh23k5',
+        username: 'Sergiy Snis',
+        currency: {
+            given: 135,
+            received: 220,
+        },
+        avatar: 'https://cdn.shopify.com/s/files/1/0356/1376/9864/products/Jeep_JEDCo_9161_Logo_Beanie_lifestyle.jpg?v=1664916734'
+    },
+    {
+        id: 'i48fuasd33xxxa',
+        username: 'Alexandra',
+        currency: {
+            given: 465,
+            received: 85,
+        },
+        avatar: 'https://cdn.pixabay.com/photo/2020/06/06/20/59/girl-5268191_960_720.jpg'
+    },
+    {
+        id: 'i48futsdsdlgh23kas',
+        username: 'Julia Hasiuk',
+        currency: {
+            given: 345,
+            received: 100,
+        },
+        avatar: 'https://images.nightcafe.studio/jobs/jze5VMxLxOHG0IKgD6Rd/jze5VMxLxOHG0IKgD6Rd--4--amc4w.jpg?tr=w-1600,c-at_max'
+    },
+]
+
+export const feedbacks: IFeedback[] = [
+    {
+        id: 'feKlNvQmDzWbXy',
+        receiverId: users[1].id,
+        senderId: users[0].id,
+        amount: 50,
+        message: 'Great job on completing the project ahead of schedule!',
+        createdAt: '2022-05-01T10:30:00.000Z',
+    },
+    {
+        id: 'seFtZwGrHxJuPy',
+        receiverId: users[1].id,
+        senderId: users[2].id,
+        amount: 25,
+        message: 'Thanks for helping me with that difficult task!',
+        createdAt: '2022-03-05T16:45:00.000Z',
+    },
+    {
+        id: 'rpMjGuVlOcIaTh',
+        receiverId: users[2].id,
+        senderId: users[3].id,
+        amount: 10,
+        message: 'Your presentation was very informative and well-prepared.',
+        createdAt: '2023-01-22T09:00:00.000Z',
+    },
+    {
+        id: 'qnBdYxEkSiLcFz',
+        receiverId: users[0].id,
+        senderId: users[3].id,
+        amount: 100,
+        message: 'You went above and beyond in supporting the team this quarter.',
+        createdAt: '2022-08-12T14:15:00.000Z',
+    },
+    {
+        id: 'tyGhJkOlMpNuBv',
+        receiverId: users[3].id,
+        senderId: users[2].id,
+        amount: 75,
+        message: 'Thank you for volunteering to take on that project!',
+        createdAt: '2023-02-10T11:20:00.000Z',
+    },
+    {
+        id: 'waQzXsEcRdVfTb',
+        receiverId: users[1].id,
+        senderId: users[2].id,
+        amount: 25,
+        message: 'Your teamwork and collaboration skills are top-notch!',
+        createdAt: '2022-11-20T08:30:00.000Z',
+    },
+    {
+        id: 'uiYtRhNkMjLoPq',
+        receiverId: users[1].id,
+        senderId: users[3].id,
+        amount: 50,
+        message: 'Your attention to detail really shone through in your work.',
+        createdAt: '2022-09-01T13:00:00.000Z',
+    },
+    {
+        id: 'opLkMjNhBvCcXz',
+        receiverId: users[4].id,
+        senderId: users[3].id,
+        amount: 100,
+        message: 'Your leadership skills have been a huge asset to the team.',
+        createdAt: '2022-07-15T10:00:00.000Z',
+    },
+    {
+        id: 'yxKjHuGtFrEsDc',
+        receiverId: users[3].id,
+        senderId: users[4].id,
+        amount: 10,
+        message: 'Thanks for always being willing to help out when needed.',
+        createdAt: '2023-03-08T15:30:00.000Z',
+    },
+    {
+        id: 'ijUhG2TrEdWsQa',
+        receiverId: users[2].id,
+        senderId: users[0].id,
+        amount: 50,
+        message: 'You consistently go above and beyond to deliver excellent work.',
+        createdAt: '2023-04-01T12:00:00.000Z',
+    },
+    {
+        id: 'lpOnMkIhsBuVyGt',
+        receiverId: users[2].id,
+        senderId: users[3].id,
+        amount: 10,
+        message: 'Thanks for always being reliable and dependable.',
+        createdAt: '2022-06-18T14:30:00.000Z',
+    },
+    {
+        id: 'qwErTaUiOpAsDf',
+        receiverId: users[1].id,
+        senderId: users[3].id,
+        amount: 50,
+        message: 'Thanks for your creativity and fresh ideas!',
+        createdAt: '2022-12-05T09:00:00.000Z',
+    },
+    {
+        id: 'ijUhGfTrEdWsQa',
+        receiverId: users[2].id,
+        senderId: users[4].id,
+        amount: 150,
+        message: 'You consistently go above and beyond to deliver excellent work.',
+        createdAt: '2023-04-01T12:00:00.000Z',
+    },
+    {
+        id: 'lpOnMkIhBuVyGt',
+        receiverId: users[0].id,
+        senderId: users[3].id,
+        amount: 210,
+        message: 'Thanks for always being reliable and dependable.',
+        createdAt: '2022-06-18T14:30:00.000Z',
+    },
+    {
+        id: 'qwErTyUiOpAsDf',
+        receiverId: users[1].id,
+        senderId: users[3].id,
+        amount: 150,
+        message: 'Thanks for your creativity and fresh ideas!',
+        createdAt: '2022-12-05T09:00:00.000Z',
+    },
+    {
+        id: 'jiKlMnHoPqRsTu',
+        receiverId: users[1].id,
+        senderId: users[2].id,
+        amount: 10,
+        message: 'Your attention to detail is outstanding.',
+        createdAt: '2022-04-30T11:15:00.000Z',
+    },
+    {
+        id: 'loKiJhYgTfReWq',
+        receiverId: users[0].id,
+        senderId: users[4].id,
+        amount: 25,
+        message: 'Your hard work and dedication are noticed and appreciated.',
+        createdAt: '2023-03-18T16:00:00.000Z',
+    },
+    {
+        id: 'puLkMjNhBgVcXz',
+        receiverId: users[0].id,
+        senderId: users[3].id,
+        amount: 50,
+        message: 'Your excellent communication skills are an asset to the team.',
+        createdAt: '2022-11-10T10:45:00.000Z',
+    },
+    {
+        id: 'xzAsDfGhJkLyUi',
+        receiverId: users[0].id,
+        senderId: users[1].id,
+        amount: 75,
+        message: 'Thanks for your help in troubleshooting that difficult issue!',
+        createdAt: '2023-04-08T13:30:00.000Z',
+    },
+    {
+        id: 'plMjNkOhBvCgFx',
+        receiverId: users[1].id,
+        senderId: users[3].id,
+        amount: 10,
+        message: 'Your attention to detail and precision are greatly appreciated.',
+        createdAt: '2023-02-22T09:15:00.000Z',
+    },
+    {
+        id: 'oiUlKjHnBmVyGt',
+        receiverId: users[1].id,
+        senderId: users[3].id,
+        amount: 25,
+        message: 'Thanks for your positive attitude and willingness to lend a hand!',
+        createdAt: '2022-09-27T14:00:00.000Z',
+    },
+];
