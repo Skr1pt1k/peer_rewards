@@ -8,7 +8,7 @@ This is test application - "Peer Rewards". Application created with react-native
 
 ## Documentation
 
-The main packages you can see in package.json [file](https://github.com/SleepSchool/SleepSchoolApp/blob/main/package.json).
+The main packages you can see in package.json [file](https://github.com/Skr1pt1k/peer_rewards/blob/main/package.json).
 
 ## Setup the project
 
